@@ -75,3 +75,15 @@ fengxinbao@ubuntu:~/transfiles$ fg 1
 
 
 
+csplit MERGE.md /@/ -n2 -f 1000-01- -b %02d-can-could.md
+csplit MERGE.md /@/ -n2 -f 1000-01- -b %02d-can-could.md
+1000-01-00-can-could.md
+1000-01-01-can-could.md
+a.md
+b.md
+c.md
+d.md
+e.md
+MERGE.md
+mote
+sed_man
