@@ -64,4 +64,14 @@ fengxinbao@ubuntu:~/transfiles$ cat -n MERGE.md
     21	!!!
 
 
+SHIFT + ZZ = Save and Quit vim
+
+fengxinbao@ubuntu:~/transfiles$ vim a.md  # CTRL + ZZ
+
+[1]+  Stopped                 vim a.md
+fengxinbao@ubuntu:~/transfiles$ jobs
+[1]+  Stopped                 vim a.md
+fengxinbao@ubuntu:~/transfiles$ fg 1
+
+
 
