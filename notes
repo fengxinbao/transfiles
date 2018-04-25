@@ -1,0 +1,67 @@
+fengxinbao@ubuntu:~/transfiles$ ls
+a.md  b.md  c.md
+fengxinbao@ubuntu:~/transfiles$ cat -n *.md
+     1	---
+     2	layout
+     3	---
+     4	
+     5	Hello
+     6	---
+     7	layout
+     8	---
+     9	
+    10	World
+    11	---
+    12	layout
+    13	---
+    14	
+    15	!!!
+fengxinbao@ubuntu:~/transfiles$ sed -i '1i\\n' *.md
+fengxinbao@ubuntu:~/transfiles$ cat -n *.md
+     1	
+     2	
+     3	---
+     4	layout
+     5	---
+     6	
+     7	Hello
+     8	
+     9	
+    10	---
+    11	layout
+    12	---
+    13	
+    14	World
+    15	
+    16	
+    17	---
+    18	layout
+    19	---
+    20	
+    21	!!!
+fengxinbao@ubuntu:~/transfiles$ cat *.md > MERGE.md
+fengxinbao@ubuntu:~/transfiles$ cat -n MERGE.md 
+     1	
+     2	
+     3	---
+     4	layout
+     5	---
+     6	
+     7	Hello
+     8	
+     9	
+    10	---
+    11	layout
+    12	---
+    13	
+    14	World
+    15	
+    16	
+    17	---
+    18	layout
+    19	---
+    20	
+    21	!!!
+
+
+
