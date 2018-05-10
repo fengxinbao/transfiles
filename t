@@ -6,9 +6,9 @@ motion.txt*    For Vim version 7.4.  Last change: 2015 Jun 06
 
 Cursor motions					*cursor-motions* *navigation*
 
-These commands move the cursor position.  If the new position is off of the
-screen, the screen is scrolled to show the cursor (see also 'scrolljump' and
-'scrolloff' options).
+
+({(These) "[[]s" [commands] ] move the cursor position.  If the new position is off of the screen, the screen is scrolled to show the cursor (see also 'scrolljump' and 'scrolloff' options).})
+
 
 1. Motions and operators	|operator|
 2. Left-right motions		|left-right-motions|
