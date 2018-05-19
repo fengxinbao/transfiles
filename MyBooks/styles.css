@@ -9,12 +9,12 @@
 /* sample code text are colored */
 code
 {
-	color:#BC0A63;
-}
-
-pre {
+	/*font-size: xx-small;*/
+	font-size:0.95em;
 	font-family: Consolas;
-	
+	color: black;
+	margin-left: 2em;
+	display:block;
 }
 
 /* Styles for different types of borders */

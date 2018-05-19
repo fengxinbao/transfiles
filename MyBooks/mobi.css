@@ -1,4 +1,20 @@
 
+/*By default mobi format applies normal text size. We have applied a smaller font size for sample code text. */
+code
+{
+	/*font-size: xx-small;*/
+	font-size:0.95em;
+	font-family: Courier;
+	color: black;
+	margin-left: 2em;
+	display:block;
+}
+
+
+pre{
+    font-family: Courier;
+	
+}
 
 /* TOC margin. Margin left should not be applied for the list in mobi format since it makes bulleted list appear as normal text in mobi. */
 ul
@@ -97,11 +113,7 @@ p.null_text_indent
 	text-indent: 0px;
 }
 
-/*By default mobi format applies normal text size. We have applied a smaller font size for sample code text. */
-code
-{
-	font-size: xx-small;
-}
+
 
 /*Drop caps cannot be created for mobi format. But the text size and weight can be modified*/
 span.dropcaps1

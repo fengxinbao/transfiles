@@ -1,4 +1,7 @@
-
+pre {
+	font-family: Courier;
+	font-size:0.95em;
+}
 /* TOC margin */
 ul
 {
